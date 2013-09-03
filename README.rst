@@ -19,3 +19,5 @@ Design Pattern
 - **Observer Pattern**
 
 - **Chain of Responsibility Pattern**
+
+- **Singleton Pattern**
