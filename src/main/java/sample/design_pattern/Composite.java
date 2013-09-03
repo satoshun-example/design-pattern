@@ -53,16 +53,24 @@ class File extends Component {
     public void printAll() {
         System.out.println("    file name: " + name);
     }
+
+    public List<Component> getComponentList() {
+        List<Component> result = new ArrayList<Component>();
+        result.add(this);
+        return result;
+    }
 }
 
 
 class Composite {
     public static void main(String[] args) {
-        Component parent = new Directory("User",
+        Component root = new Directory("User",
             new Directory("hospital", new File("ouch")),
             new File("hello world"),
             new File("sorry")
         );
-        parent.printAll();
+        root.printAll();
+
+        System.out.println(root.getComponentList());
     }
 }
