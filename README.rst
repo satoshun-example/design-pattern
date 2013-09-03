@@ -2,18 +2,20 @@
 Design Pattern
 ==============
 
-- State Pattern
+- **State Pattern**
 
-- Composite Pattern
+- **Composite Pattern**
 
-- Abstract Factory Pattern
+- **Abstract Factory Pattern**
 
-- Template Method Pattern
+- **Template Method Pattern**
 
-- Adapter Pattern
+- **Adapter Pattern**
 
-- Mediator Pattern
+- **Mediator Pattern**
 
-- Facade Pattern
+- **Facade Pattern**
 
-- Observer Pattern
+- **Observer Pattern**
+
+- **Chain of Responsibility Pattern**
