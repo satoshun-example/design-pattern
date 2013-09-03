@@ -9,3 +9,5 @@ Design Pattern
 - Abstract Factory Pattern
 
 - Template Method Pattern
+
+- Adapter Pattern
