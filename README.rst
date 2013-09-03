@@ -11,3 +11,5 @@ Design Pattern
 - Template Method Pattern
 
 - Adapter Pattern
+
+- Mediator Pattern
