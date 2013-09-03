@@ -15,3 +15,5 @@ Design Pattern
 - Mediator Pattern
 
 - Facade Pattern
+
+- Observer Pattern
