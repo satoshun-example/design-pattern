@@ -23,3 +23,10 @@ Design Pattern
 - **Singleton Pattern**
 
 - **Command Pattern**
+
+
+=======
+License
+=======
+
+This Source is released under the GNU General Public License version 3(GNU GPLv3).
