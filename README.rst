@@ -21,3 +21,5 @@ Design Pattern
 - **Chain of Responsibility Pattern**
 
 - **Singleton Pattern**
+
+- **Command Pattern**
