@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 
-class Greeting
+class Weather
 {
 public:
     virtual void compute() = 0;
 };
 
 
-class Morning : public Greeting
+class Morning : public Weather
 {
 public:
     virtual void compute()
@@ -18,7 +18,7 @@ public:
 };
 
 
-class Evening : public Greeting
+class Evening : public Weather
 {
 public:
     virtual void compute()
@@ -28,7 +28,7 @@ public:
 };
 
 
-class Night : public Greeting
+class Night : public Weather
 {
 public:
     virtual void compute()
@@ -44,14 +44,14 @@ main(void)
     Evening evening;
     Night night;
 
-    Greeting* greeting = &morning;
-    greeting->compute();
+    Weather* weather = &morning;
+    weather->compute();
 
-    greeting = &evening;
-    greeting->compute();
+    weather = &evening;
+    weather->compute();
 
-    greeting = &night;
-    greeting->compute();
+    weather = &night;
+    weather->compute();
 
     return 0;
 }
