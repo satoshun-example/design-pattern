@@ -1,42 +1,46 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * State Pattern
+ */
+
 package sample.design_pattern;
 
 
-class BookFactory {
-    public static Book factory(String type) {
-        if (type.equals("novel")) {
-            return new Novel();
-        } else if (type.equals("fairyTale")) {
-            return new FairyTale();
-        }
-        return null;
-    }
-}
-
-abstract class Book {
-    abstract void read();
+interface IWeather {
+    void compute();
 }
 
 
-class Novel extends Book {
-    public void read() {
-        System.out.println("A novel is a long prose narrative that describes fictional ...");
+class Morning implements IWeather {
+    public void compute() {
+        System.out.println("Good Morning");
     }
 }
 
 
-class FairyTale extends Book {
-    public void read() {
-        System.out.println("For a comparison of fairy tale with other kinds of stories ...");
+class Evening implements IWeather {
+    public void compute() {
+        System.out.println("Good Evening");
+    }
+}
+
+
+class Night implements IWeather {
+    public void compute() {
+        System.out.println("Good Night");
     }
 }
 
 
 class State {
     public static void main(String[] args) {
-        Book book = BookFactory.factory("novel");
-        book.read();
+        say(new Morning());
+        say(new Night());
+        say(new Evening());
+    }
 
-        Book book2 = BookFactory.factory("fairyTale");
-        book2.read();
+    private static void say(IWeather weather) {
+        weather.compute();
     }
 }
