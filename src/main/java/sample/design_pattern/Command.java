@@ -1,6 +1,15 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * State Pattern
+ */
+
 package sample.design_pattern;
 
-// Command pattern, Example of general
+/*
+ * Command pattern, Example of general
+ */
+
 interface ICommand {
     void execute();
 }
