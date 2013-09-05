@@ -24,6 +24,8 @@ Design Pattern
 
 - **Command Pattern**
 
+- **Factory Method Pattern**
+
 
 =======
 License
