@@ -26,6 +26,7 @@ Design Pattern
 
 - **Factory Method Pattern**
 
+- **Iterator Pattern**
 
 =======
 License
