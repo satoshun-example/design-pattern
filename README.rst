@@ -28,6 +28,8 @@ Design Pattern
 
 - **Iterator Pattern**
 
+- **Visitor Pattern**
+
 =======
 License
 =======
