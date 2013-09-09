@@ -32,6 +32,8 @@ Design Pattern
 
 - **Bridge Pattern**
 
+- **Strategy Pattern**
+
 =======
 License
 =======
