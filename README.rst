@@ -30,6 +30,8 @@ Design Pattern
 
 - **Visitor Pattern**
 
+- **Bridge Pattern**
+
 =======
 License
 =======
