@@ -35,8 +35,10 @@ class OrderManager {
 
 class SortOrder implements ISort {
     public void showOrderList(List<Integer> lst) {
-        Collections.sort(lst);
-        System.out.println(lst);
+        List<Integer> temp = new ArrayList<Integer>(lst);
+
+        Collections.sort(temp);
+        System.out.println(temp);
     }
 }
 
