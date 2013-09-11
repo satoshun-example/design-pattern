@@ -34,6 +34,8 @@ Design Pattern
 
 - **Strategy Pattern**
 
+- **Decorator Pattern**
+
 =======
 License
 =======
