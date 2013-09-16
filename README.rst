@@ -2,6 +2,9 @@
 Design Pattern
 ==============
 
+GOF
+========
+
 - **State Pattern**
 
 - **Composite Pattern**
@@ -35,6 +38,8 @@ Design Pattern
 - **Strategy Pattern**
 
 - **Decorator Pattern**
+
+- **Memento Pattern**
 
 =======
 License
