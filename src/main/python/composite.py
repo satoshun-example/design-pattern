@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 
 class Component(object):
+    """ Abstract class"""
     __metaclass__ = ABCMeta
 
     @abstractmethod
