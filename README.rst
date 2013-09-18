@@ -41,6 +41,8 @@ GOF
 
 - **Memento Pattern**
 
+- **Prototype Pattern**
+
 =======
 License
 =======
