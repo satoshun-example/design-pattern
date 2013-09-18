@@ -43,6 +43,8 @@ GOF
 
 - **Prototype Pattern**
 
+- **Proxy Pattern**
+
 =======
 License
 =======
