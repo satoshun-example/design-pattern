@@ -2,8 +2,8 @@
 Design Pattern
 ==============
 
-GOF
-========
+GOF Design Pattern
+===================
 
 - **State Pattern**
 
