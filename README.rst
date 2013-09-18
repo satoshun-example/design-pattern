@@ -45,6 +45,8 @@ GOF Design Pattern
 
 - **Proxy Pattern**
 
+- **FlyWeight Pattern**
+
 =======
 License
 =======
