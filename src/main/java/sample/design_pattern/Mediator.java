@@ -1,9 +1,11 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Mediator Pattern
+ */
+
 package sample.design_pattern;
 
-
-/*
- * mediator class
- */
 class Game {
     private IPlayer player;
     private IPlayer enemy;

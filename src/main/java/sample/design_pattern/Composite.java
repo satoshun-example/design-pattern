@@ -1,3 +1,9 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Composite Pattern
+ */
+
 package sample.design_pattern;
 
 import java.util.*;

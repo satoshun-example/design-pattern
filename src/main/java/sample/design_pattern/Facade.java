@@ -1,3 +1,9 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Facade Pattern
+ */
+
 package sample.design_pattern;
 
 import java.util.*;

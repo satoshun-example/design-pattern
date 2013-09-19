@@ -1,3 +1,9 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Observer Pattern
+ */
+
 package sample.design_pattern;
 
 import java.util.*;

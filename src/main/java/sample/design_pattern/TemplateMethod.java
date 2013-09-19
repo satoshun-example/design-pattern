@@ -1,3 +1,9 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Template method Pattern
+ */
+
 package sample.design_pattern;
 
 

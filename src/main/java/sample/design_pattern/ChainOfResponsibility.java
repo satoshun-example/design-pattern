@@ -1,3 +1,9 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Chain of responsibility Pattern
+ */
+
 package sample.design_pattern;
 
 

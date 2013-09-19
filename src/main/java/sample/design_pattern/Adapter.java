@@ -1,3 +1,9 @@
+/*
+ * Copyright 2013 SatoShun
+ *
+ * Adapter Pattern
+ */
+
 package sample.design_pattern;
 
 
