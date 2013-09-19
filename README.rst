@@ -47,6 +47,8 @@ GOF Design Pattern
 
 - **FlyWeight Pattern**
 
+- **Builder Pattern**
+
 =======
 License
 =======
