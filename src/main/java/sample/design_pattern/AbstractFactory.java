@@ -8,7 +8,7 @@ package sample.design_pattern;
 
 
 interface IShapeFactory {
-    IShape create(int width, int height);
+    IShape create(double width, double height);
 }
 
 interface IShape {
@@ -17,7 +17,7 @@ interface IShape {
 
 // Rectangle
 class RectangleFactory implements IShapeFactory {
-    public IShape create(int width, int height) {
+    public IShape create(double width, double height) {
         return new Rectangle(width, height);
     }
 }
@@ -38,7 +38,7 @@ class Rectangle implements IShape {
 
 // Triangle
 class TriangleFactory implements IShapeFactory {
-    public IShape create(int width, int height) {
+    public IShape create(double width, double height) {
         return new Triangle(width, height);
     }
 }
