@@ -1,9 +1,9 @@
-==============
+=================
 Design Pattern
-==============
+=================
 
 GoF Design Patterns
-===================
+======================
 
 - **State Pattern**
 
@@ -50,12 +50,11 @@ GoF Design Patterns
 - **Builder Pattern**
 
 etc Patterns
-============
+================
 
 - **Callback Pattern**
 
-=======
 License
-=======
+==========
 
-This Source is released under the GNU General Public License version 3(GNU GPLv3).
+This Source is released under the MIT License(http://opensource.org/licenses/MIT).
