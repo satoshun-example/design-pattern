@@ -15,7 +15,7 @@ trait ITextProcess {
 
 
 class HTMLDocument(val header: String, val body: String, val footer: String) extends ITextProcess {
-    def printHeader() = {
+    def printHeader = {
         println("<head>")
         println("\t" + header)
         println("</head>")
